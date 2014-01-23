@@ -8,9 +8,9 @@ include ("phpfunctions.php");
 
 
 
-<link rel="stylesheet" href="loginform.css" type="text/css" media="all">
-<link rel="stylesheet" href="ddcolortabs.css" type="text/css" media="all"> 
-<script type='text/javascript' src='ddtabmenu.js'></script>
+<link rel="stylesheet" href="css/loginform.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/ddcolortabs.css" type="text/css" media="all"> 
+<script type='text/javascript' src='js/ddtabmenu.js'></script>
 <script type='text/javascript'>
 ddtabmenu.definemenu('ddtabs1', 0)
 ddtabmenu.definemenu('ddtabs2', 1)
