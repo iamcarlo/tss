@@ -1,0 +1,40 @@
+
+tr.even{
+background-color:#ffffff;height:25px;
+}
+tr.odd{
+background-color:#ffffff;height:25px;
+}
+hr{width:934px;height:4px;color:#7b9d04;background-color:7b9d04;
+}
+
+th{white-space:nowrap;}
+
+.pagination{height:40px;width:900px;float:center;
+}
+.page-link{
+float:left;
+background-color:#fff;
+background-image:url('bgpatt.jpg');
+border:1px solid black;
+text-align:center;
+color:#ffffff;
+text-decoration:none; 
+}
+.page-link a,.page-link span{
+padding:5px 8px 5px 8px;
+display:block;
+color:#ffffff;
+text-decoration:none; 
+}
+.page-link span{
+background-color:#ffffff;
+color:#000000;
+}
+.page-link:hover{
+background-color:#ffffff;
+color:#000000;
+}
+.page-link:hover a{
+color:#000000;
+}

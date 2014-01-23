@@ -1,0 +1,80 @@
+.ddcolortabs{
+position:relative;
+float:right;
+padding-top:70px;
+margin-left:200px;
+width: 260px;
+background: transparent;
+voice-family: inherit;
+}
+
+.ddcolortabs ul{
+font: normal 11px Arial, Verdana, sans-serif;
+margin:0;
+padding:0;
+list-style:none;
+float:right;
+width:100%;
+}
+
+.ddcolortabs li{
+display:inline;
+margin:0 2px 0 0;
+padding:0;
+text-transform:uppercase;
+}
+
+
+.ddcolortabs a{
+float:left;
+color: white;
+background: #7b9d04 url(color_tabs_left.gif) no-repeat left top;
+margin:0 2px 0 0;
+padding:0 0 1px 3px;
+text-decoration:none;
+letter-spacing: 1px;
+}
+
+.ddcolortabs a span{
+float:right;
+display:block;
+background: transparent url(color_tabs_right.gif) no-repeat right top;
+padding: 6px 8px 3px 7px;
+}
+
+.ddcolortabs a span{
+float:none;
+}
+
+.ddcolortabs a:hover{
+background-color: #8cb85c;
+}
+
+.ddcolortabs a:hover span{
+background-color: #8cb85c;
+}
+
+.ddcolortabs a.current, #ddcolortabs a.current span{ /*currently selected tab*/
+background-color: #000;
+}
+
+.ddcolortabsline{
+position:relative;
+clear: both;
+padding: 0;
+width: 934px;
+height: 3px;
+line-height: 8px;
+background: #7b9d04;
+border-top: 0px solid #fff; /*Remove this to remove border between bar and tabs*/
+}
+
+.tabcontainer{
+clear: right;
+width:95%; /*width of 2nd level sub menus*/
+height:1.5em; /*height of 2nd level sub menus. Set to largest's sub menu's height to avoid jittering.*/
+}
+
+.tabcontent{
+display:none;
+}

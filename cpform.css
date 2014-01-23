@@ -1,0 +1,42 @@
+body {
+font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+background-color:#fff;
+}
+.trouble{
+background-color:transparent;
+background-image:url("77px.png");
+background-repeat:no-repeat;
+background-position:center right;
+height:40px; width:250px;
+font-weight:bold;
+}
+.myform {
+margin:0 auto;
+width:150px;
+padding:15px;
+}   
+label {
+width: 150px;
+float: left;
+margin-right: 1px;
+display: block;
+}
+.sab2 {
+height:35px;width:50px; 
+}
+fieldset {
+background:#d3e0c6 none repeat scroll 0 0;
+border:2px solid #8bb00a;
+width: 150px;
+border-radius: 20px 20px 20px 20px; 
+-moz-border-radius: 20px 20px 20px 20px; 
+-webkit-border-radius: 20px 20px 20px 20px; 
+}
+.elements {
+padding:7px;
+}
+.submit {
+float:center;
+}
+
